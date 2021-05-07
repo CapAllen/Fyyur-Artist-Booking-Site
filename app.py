@@ -14,7 +14,7 @@ from logging import Formatter, FileHandler
 from flask_wtf import Form
 from forms import *
 
-import datetime
+from datetime import datetime
 from flask_wtf.csrf import CSRFProtect
 from sqlalchemy import func, or_
 from flask_migrate import Migrate
